@@ -1,7 +1,14 @@
-{% extends 'base.html' %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+</head>
 
-{% block content %}
-<div class="about-section" style="text-align:center; padding:20px;">
+<body style="font-family: Arial, sans-serif; text-align: center; margin: 40px;">
     <h1>About Our Restaurant</h1>
     <p>Welcome to our Restaurant! We serve delicious, fresh meals made with love.</p>
-    <img src="% static %"
+    <img src="% static %">
+    <br><br>
+    <a href="{% url 'home' %}" style="text-decoration: none; color: blue;">Back to Home</a>
+</body>
+</html>
